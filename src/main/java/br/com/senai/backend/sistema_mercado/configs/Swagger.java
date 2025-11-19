@@ -8,9 +8,9 @@ import io.swagger.v3.oas.annotations.info.Info;
 @Configuration
 @OpenAPIDefinition(
     info = @Info(
-        title = "Exemplo API",
+        title = "Mercado Grão-Pará",
         version = "1.0",
-        description = "API para o sistema Exemplo"
+        description = "projeto banco de dados -Davi_Miguez"
     )
 )
 public class Swagger {

@@ -14,6 +14,7 @@ import br.com.senai.backend.sistema_mercado.services.FuncionarioService;
 
 
 
+
 @RestController
 @RequestMapping("/funcionario")
 public class FuncionarioController {
@@ -30,6 +31,7 @@ public class FuncionarioController {
     public Funcionario recuperarPorId(@PathVariable Integer Id) {
         return funcionarioService.recuperarPorId(Id);
     }
+    
     
     
 }

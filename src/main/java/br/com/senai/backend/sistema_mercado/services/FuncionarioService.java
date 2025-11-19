@@ -8,6 +8,7 @@ import br.com.senai.backend.sistema_mercado.repositories.FuncionarioRepositorie;
 
 
 
+
 @Service
 public class FuncionarioService {
     
@@ -22,5 +23,10 @@ public class FuncionarioService {
         public Funcionario recuperarPorId(Integer id) {
             return funcionarioRepository.findById(id).get();
     }
+
+    
+    
+
+
 
 }
